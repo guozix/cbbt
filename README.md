@@ -58,7 +58,14 @@ bash scripts/coop/main.sh oxford_flowers rn50 end 1 16 False oxford_flowers_OURS
 
 If you make use of our work, please cite our paper.
 ```bibtex
-
+@inproceedings{
+    guo2023blackbox,
+    title={Black-Box Tuning of Vision-Language Models with Effective Gradient Approximation},
+    author={Zixian Guo and Yuxiang Wei and Ming Liu and Zhilong Ji and Jinfeng Bai and Yiwen Guo and Wangmeng Zuo},
+    booktitle={The 2023 Conference on Empirical Methods in Natural Language Processing},
+    year={2023},
+    url={https://openreview.net/forum?id=gybvlVXT6z}
+}
 ```
 
 ## Acknowledgement
