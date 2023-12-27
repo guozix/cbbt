@@ -41,7 +41,7 @@ pip install -r requirements.txt
 
 Follow [DATASETS.md](https://github.com/KaiyangZhou/CoOp/blob/main/DATASETS.md) to prepare the datasets.
 
-Chage the variable `DATA` in the training scripts `main.sh` to your dataset directory.
+Change the variable `DATA` in the training scripts `main.sh` to your dataset directory.
 
 ## Run
 
