@@ -41,16 +41,16 @@ pip install -r requirements.txt
 
 Follow [DATASETS.md](https://github.com/KaiyangZhou/CoOp/blob/main/DATASETS.md) to prepare the datasets.
 
-Chage the variable `DATA` in the training scripts `main.sh` to your dataset directory.
+Change the variable `DATA` in the training scripts `main.sh` to your dataset directory.
 
 ## Run
 
-Train TaI-DPT on the datasets:
+Train on the datasets:
 ``` bash
 bash scripts/coop/main.sh eurosat rn50 end 1 16 False eurosat_rn50_1ctx 1 True True False 256 150 6000
-bash scripts/coop/main.sh fgvc_aircraft rn50 end 1 16 False fgvc_OURS_WO_rn50_1ctx_haug_fix 0 True True False 256 150 6000
-bash scripts/coop/main.sh oxford_pets rn50 end 1 16 False oxford_pets_OURS_WO_rn50_1ctx_haug_fix 1 True True False 256 150 6000
-bash scripts/coop/main.sh oxford_flowers rn50 end 1 16 False oxford_flowers_OURS_WO_rn50_1ctx_haug_fix 2 True True False 256 150 6000
+bash scripts/coop/main.sh fgvc_aircraft rn50 end 1 16 False fgvc_rn50_1ctx_haug_fix 0 True True False 256 150 6000
+bash scripts/coop/main.sh oxford_pets rn50 end 1 16 False oxford_pets_rn50_1ctx_haug_fix 1 True True False 256 150 6000
+bash scripts/coop/main.sh oxford_flowers rn50 end 1 16 False oxford_flowers_rn50_1ctx_haug_fix 2 True True False 256 150 6000
 ...
 ```
 

@@ -32,8 +32,8 @@ import trainers.coop
 import trainers.cocoop
 import trainers.zsclip
 import trainers.cooppara
-import trainers.coopadapter
-import trainers.cooptip
+# import trainers.coopadapter
+# import trainers.cooptip
 
 
 def print_args(args, cfg):

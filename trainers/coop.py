@@ -73,12 +73,6 @@ epsilon_ = 0.001
 
 estim_type = "gauss" # "prob_partgrad" "partgrad"  "loss<"  "pca"
 
-pca_dir = torch.load("wordvec_pca100.pkl")
-
-pca_prob = torch.load("datasets/T5_w2s_eurosat_1000s_uniwords_pca100_projrate.pkl")
-pca_prob = torch.abs(pca_prob).detach().cpu().numpy()
-pca_prob = pca_prob / pca_prob.sum()
-
 def rademacher(shape, device='cpu'):
     global estim_type
     global optim_idx
